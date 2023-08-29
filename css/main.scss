@@ -1,0 +1,15 @@
+.main-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows: auto 200px;
+}
+
+.bolo-chocolate {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.bolo-cenoura {
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
